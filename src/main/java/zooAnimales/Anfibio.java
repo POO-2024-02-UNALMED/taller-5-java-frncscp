@@ -19,7 +19,7 @@ public class Anfibio extends Animal {
         listado.add(this);
     }
 
-    public static int cantidadAnfibios(){ return Anfibio.listado.size(); }
+    public static int cantidadAnfibios(){ return listado.size(); }
 
     @Override
     public String movimiento(){ return "saltar"; }
@@ -33,7 +33,7 @@ public class Anfibio extends Animal {
         rana.setVenenoso(true);
         rana.setColorPiel("rojo");
 
-        Anfibio.ranas ++;
+        Anfibio.ranas++;
         return rana;
     }
 
@@ -45,7 +45,7 @@ public class Anfibio extends Animal {
         salamandra.setHabitat("selva");
         salamandra.setVenenoso(false);
         salamandra.setColorPiel("negro y amarillo");
-        Anfibio.salamandras ++;
+        Anfibio.salamandras++;
         return salamandra;
     }
 
@@ -54,5 +54,7 @@ public class Anfibio extends Animal {
 
     public String getColorPiel(){ return this.colorPiel; }
     public void setColorPiel( String colorPiel ){ this.colorPiel = colorPiel; }
+
+
 
 }

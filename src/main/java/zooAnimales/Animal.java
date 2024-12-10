@@ -35,7 +35,7 @@ public class Animal {
      
       String ans = "Mamiferos: "+ mamiferos +"\n" + 
       "Aves: " + aves + "\n" + 
-      "Reptiles: " + reptiles +" \n" + 
+      "Reptiles: " + reptiles +"\n" + 
       "Peces: " + peces + "\n" + 
       "Anfibios: " + anfibios;
 
