@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+
+
 public class Pez {
 
     private static ArrayList<Pez> listado = new ArrayList<>();
