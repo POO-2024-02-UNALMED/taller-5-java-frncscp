@@ -20,7 +20,7 @@ public class Zoologico {
 
         int ttl = 0;
         for (int i = 0; i < zonas.size(); i++){
-            ttl += zonas[i].getAnimales.size();
+            ttl += zonas.get(i).getAnimales.size();
         }
 
         return ttl;
