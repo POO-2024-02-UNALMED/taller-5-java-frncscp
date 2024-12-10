@@ -39,7 +39,7 @@ public class Animal {
 
   @Override
   public String toString(){ 
-    if  !(this.zona == null){
+    if  (this.zona != null){
       return "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en " + this.habitat + " y mi genero es " + this.genero + ", la zona en la que me ubico es " + this.zona.getNombre() + ", en el " + this.zona.getZoo().getNombre(); 
     } else {
       return "Mi nombre es " + this.nombre + ", tengo una edad de " + this.edad + ", habito en " + this.habitat + " y mi genero es " + this.genero; 
