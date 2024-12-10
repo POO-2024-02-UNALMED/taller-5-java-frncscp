@@ -33,7 +33,7 @@ public class Animal {
       int reptiles = Reptil.cantidadReptiles();
       int peces = Pez.cantidadPeces();
      
-      ans = "Mamiferos: "+ mamiferos +"\n" + 
+      String ans = "Mamiferos: "+ mamiferos +"\n" + 
       "Aves: " + aves + "\n" + 
       "Reptiles: " + reptiles +" \n" + 
       "Peces: " + peces + "\n" + 
