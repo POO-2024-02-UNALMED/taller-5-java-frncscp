@@ -17,14 +17,14 @@ public class Ave extends Animal {
     @Override
     public String movimiento(){ return "volar"; }
 
-    public crearHalcon(String nombre, int edad, String genero){
+    public Ave crearHalcon(String nombre, int edad, String genero){
         Ave halcon = new Ave(nombre, edad, "montañas", genero, "café glorioso");
         halcones ++;
         listado.add(halcon);
         return halcon;
     }
 
-    public crearAguila(String nombre, int edad, String genero){
+    public Ave crearAguila(String nombre, int edad, String genero){
         Ave aguila = new Ave(nombre, edad, "montañas", genero, "blanco y amarillo");
         aguilas ++;
         listado.add(aguila);

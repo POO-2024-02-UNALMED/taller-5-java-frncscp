@@ -19,14 +19,14 @@ public class Pez {
     @Override
     public string movimiento(){ return "nadar"; }
 
-    public crearSalmon(String nombre, int edad, String genero){
-        Pez salmon = new Pez(nombre, edad, "océano" genero, "rojo", 6);
+    public Pez crearSalmon(String nombre, int edad, String genero){
+        Pez salmon = new Pez(nombre, edad, "océano", genero, "rojo", 6);
         salmones ++;
         listado.add(salmon);
         return salmon;
     }
 
-    public crearBacalao(String nombre, int edad, String genero){
+    public Pez crearBacalao(String nombre, int edad, String genero){
         Pez bacalao = new Pez(nombre, edad, "océano", genero, "gris", 6);
         bacalaos ++;
         listado.add(bacalao);

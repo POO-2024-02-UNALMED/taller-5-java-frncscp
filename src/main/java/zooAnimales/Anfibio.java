@@ -14,19 +14,19 @@ public class Anfibio {
         this.venenoso = venenoso;
     }
 
-    public Static int cantidadAnfibios(){ return Anfibio.listado.size(); }
+    public static int cantidadAnfibios(){ return Anfibio.listado.size(); }
 
     @Override
     public String movimiento(){ return "saltar"; }
 
-    public crearRana(String nombre, int edad, String genero){
+    public Anfibio crearRana(String nombre, int edad, String genero){
         Anfibio rana = new Anfibio(nombre, edad, "selva", genero, "rojo", true);
         ranas ++;
         listado.add(rana);
         return rana;
     }
 
-    public crearSalamandra(String nombre, int edad, String genero){
+    public Anfibio crearSalamandra(String nombre, int edad, String genero){
         Anfibio salamandra = new Anfibio(nombre, edad, "selva", genero, "negro y amarillo", false);
         salamandras ++;
         listado.add(salamandra);

@@ -22,7 +22,7 @@ public class Zoologico {
             ttl += zonas[i].getAnimales.size();
         }
 
-        return ttl
+        return ttl;
     }
 
     public String getNombre(){ return this.nombre; }
