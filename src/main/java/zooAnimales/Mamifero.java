@@ -27,7 +27,7 @@ public class Mamifero extends Animal{
     public Mamifero crearCaballo(String nombre, int edad, String genero){
         Mamifero caballo = new Mamifero(nombre, edad, "pradera", genero, true, 4);
         caballos ++;
-        istado.add(caballo);
+        listado.add(caballo);
         return caballo;
     }
 

@@ -20,7 +20,7 @@ public class Ave extends Animal {
     public String movimiento(){ return "volar"; }
 
     public Ave crearHalcon(String nombre, int edad, String genero){
-        Ave halcon = new Ave(nombre, edad, "montañas", genero, "café glorioso");
+        Ave halcon = new Ave(nombre, edad, "montañas", genero, "cafe glorioso");
         halcones ++;
         listado.add(halcon);
         return halcon;

@@ -23,14 +23,14 @@ public class Pez {
     public string movimiento(){ return "nadar"; }
 
     public Pez crearSalmon(String nombre, int edad, String genero){
-        Pez salmon = new Pez(nombre, edad, "océano", genero, "rojo", 6);
+        Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojo", 6);
         salmones ++;
         listado.add(salmon);
         return salmon;
     }
 
     public Pez crearBacalao(String nombre, int edad, String genero){
-        Pez bacalao = new Pez(nombre, edad, "océano", genero, "gris", 6);
+        Pez bacalao = new Pez(nombre, edad, "oceano", genero, "gris", 6);
         bacalaos ++;
         listado.add(bacalao);
         return bacalao;
