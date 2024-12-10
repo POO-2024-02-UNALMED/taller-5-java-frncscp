@@ -5,8 +5,8 @@ import java.util.ArrayList;
 public class Anfibio extends Animal {
 
     private static ArrayList<Anfibio> listado = new ArrayList<>();
-    public int ranas;
-    public int salamandras;
+    public static int ranas;
+    public static int salamandras;
     private boolean venenoso;
     private String colorPiel;
 
