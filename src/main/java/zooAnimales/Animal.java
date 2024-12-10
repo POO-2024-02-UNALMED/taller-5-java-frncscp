@@ -25,7 +25,7 @@ public class Animal {
     }
 
     public String movimiento(){ return "desplazarse"; }
-    public String totalPorTipo(){
+    public static String totalPorTipo(){
       
       int mamifero = Mamifero.cantidadMamiferos();
       int ave = Ave.cantidadAves();
