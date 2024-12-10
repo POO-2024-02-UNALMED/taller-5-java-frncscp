@@ -9,7 +9,7 @@ public class Reptil extends Animal{
     public Reptil(){}
 
     public Reptil(String nombre, int edad, String habitat, String genero, String colorEscamas, int largoCola){
-        super(nombre, edad, habitat, genero)
+        super(nombre, edad, habitat, genero);
         this.colorEscamas = colorEscamas;
         this.largoCola = largoCola;
     }
