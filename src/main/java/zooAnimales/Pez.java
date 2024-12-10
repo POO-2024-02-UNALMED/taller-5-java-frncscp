@@ -1,8 +1,7 @@
 import java.util.ArrayList;
 
 
-public class Pez {
-
+public class Pez extends Animal{
     private static ArrayList<Pez> listado = new ArrayList<>();
     public int bacalaos;
     public int salmones;
@@ -20,7 +19,7 @@ public class Pez {
     public static int cantidadPeces(){ return Pez.listado.size(); }
     
     @Override
-    public string movimiento(){ return "nadar"; }
+    public String movimiento(){ return "nadar"; }
 
     public Pez crearSalmon(String nombre, int edad, String genero){
         Pez salmon = new Pez(nombre, edad, "oceano", genero, "rojo", 6);

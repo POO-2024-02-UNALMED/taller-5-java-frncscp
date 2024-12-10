@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 
-public class Anfibio {
+public class Anfibio extends Animal {
 
     private static ArrayList<Anfibio> listado = new ArrayList<>();
     public int ranas;
