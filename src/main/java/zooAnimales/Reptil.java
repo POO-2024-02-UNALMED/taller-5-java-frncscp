@@ -47,7 +47,7 @@ public class Reptil extends Animal{
         return serpiente;
     }
 
-    public String getcolorEscamas(){ return this.colorEscamas; }
+    public String getColorEscamas(){ return this.colorEscamas; }
     public void setColorEscamas( String colorEscamas ){ this.colorEscamas = colorEscamas; }
 
     public int getLargoCola(){ return this.largoCola; }
