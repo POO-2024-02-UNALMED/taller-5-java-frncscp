@@ -16,8 +16,8 @@ public class Zona {
         this.zoo = zoo;
     }
 
-    public void agregarAnimales(Animal animal){ animales.add(animal); }
-    public int cantidadAnimales(){ return animales.size(); }
+    public void agregarAnimales(Animal animal){ this.animales.add(animal); }
+    public int cantidadAnimales(){ return this.animales.size(); }
 
     public void setNombre(String nombre){ this.nombre = nombre; }
     public String getNombre(){ return this.nombre; }
