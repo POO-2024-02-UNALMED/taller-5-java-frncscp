@@ -24,13 +24,25 @@ public class Reptil extends Animal{
     public String movimiento(){ return "reptar"; }
 
     public static Reptil crearIguana(String nombre, int edad, String genero){
-        Reptil iguana = new Reptil(nombre, edad, "humedal", genero, "verde", 3);
+        Reptil iguana = new Reptil();
+        iguana.setNombre(nombre);
+        iguana.setEdad(edad);
+        iguana.setHabitat("humedal");
+        iguana.setGenero(genero);
+        iguana.setColorEscamas("verde");
+        iguana.setLargoCola(3);
         Reptil.iguanas ++;
         return iguana;
     }
 
     public static Reptil crearSerpiente(String nombre, int edad, String genero){
-        Reptil serpiente = new Reptil(nombre, edad, "jungla", genero, "blanco", 1);
+        Reptil serpiente = new Reptil();
+        serpiente.setNombre(nombre);
+        serpiente.setEdad(edad);
+        serpiente.setHabitat("jungla");
+        serpiente.setGenero(genero);
+        serpiente.setColorEscamas("blanco");
+        serpiente.setLargoCola(1);
         Reptil.serpientes ++;
         return serpiente;
     }
