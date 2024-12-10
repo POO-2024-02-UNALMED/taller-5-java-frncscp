@@ -1,3 +1,4 @@
+package zooAnimales;
 import gestion.*;
 import java.util.ArrayList;
 
@@ -24,7 +25,7 @@ public class Animal {
     }
 
     public String movimiento(){ return "desplazarse"; }
-    public void totalPorTipo(){
+    public String totalPorTipo(){
       
       int mamifero = Mamifero.cantidadMamiferos();
       int ave = Ave.cantidadAves();
